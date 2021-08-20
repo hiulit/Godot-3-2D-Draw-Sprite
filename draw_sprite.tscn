@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://draw_sprite.gd" type="Script" id=1]
+
+[node name="draw_sprite" type="Node2D"]
+script = ExtResource( 1 )
+sprite = [ [ 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0 ], [ 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0 ], [ 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0 ], [ 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0 ], [ 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0 ], [ 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0 ], [ 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0 ], [ 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1 ], [ 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1 ] ]
+colors = PoolColorArray( 1, 0.63, 0, 1, 0.67, 0.32, 0.21, 1 )
