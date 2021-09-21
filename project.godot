@@ -21,7 +21,9 @@ _global_script_class_icons={
 [application]
 
 config/name="Godot 3 2D Draw Sprite"
-config/description="A script to create \"sprites\" using the `_draw()` function to easily create patterns, change the color palette, or change the pixel size."
+config/description="A script to create \"sprites\" using the `_draw()` function to easily create patterns, change the color palette, or change the pixel size.
+
+> The variables `_sprite` and `_colors` are created using [Aseprite to Godot variables](https://github.com/hiulit/aseprite-to-godot-variables)."
 run/main_scene="res://draw_sprite.tscn"
 config/icon="res://icon.png"
 config/version="1.0.0"

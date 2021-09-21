@@ -4,6 +4,8 @@
 
 A script to create \"sprites\" using the `_draw()` function to easily create patterns, change the color palette, or change the pixel size.
 
+> The variables `_sprite` and `_colors` are created using [Aseprite to Godot variables](https://github.com/hiulit/aseprite-to-godot-variables).
+
 ![Godot 3 2D Draw Sprite banner](examples/Godot-3-2D-Draw-Sprite-Banner.png)
 
 ## Table of contents
@@ -134,7 +136,7 @@ If you find this project helpful, please consider supporting it through any size
 
 If you can't, consider sharing it with the world...
 
-[![Share on Twitter](https://img.shields.io/badge/Share_on_Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/intent/tweet?url=https://github.com/hiulit/Godot-3-2D-Draw-Sprite&text=%22Godot%203%202D%20Draw%20Sprite%22%0AA%20script%20to%20create%20%5C%22sprites%5C%22%20using%20the%20%60_draw()%60%20function%20to%20easily%20create%20patterns,%20change%20the%20color%20palette,%20or%20change%20the%20pixel%20size.%0A%0ABy%20@hiulit%0A%0A)
+[![Share on Twitter](https://img.shields.io/badge/Share_on_Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/intent/tweet?url=https://github.com/hiulit/Godot-3-2D-Draw-Sprite&text=%22Godot%203%202D%20Draw%20Sprite%22%0AA%20script%20to%20create%20%5C%22sprites%5C%22%20using%20the%20%60_draw()%60%20function%20to%20easily%20create%20patterns,%20change%20the%20color%20palette,%20or%20change%20the%20pixel%20size.%0A%0A%3E%20The%20variables%20%60_sprite%60%20and%20%60_colors%60%20are%20created%20using%20%5BAseprite%20to%20Godot%20variables%5D(https://github.com/hiulit/aseprite-to-godot-variables).%0A%0ABy%20@hiulit%0A%0A)
 
 ... or giving it a [star](https://github.com/hiulit/Godot-3-2D-Draw-Sprite/stargazers).
 
