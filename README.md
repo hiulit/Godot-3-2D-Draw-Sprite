@@ -105,6 +105,10 @@ export(Vector2) var offset = Vector2.ZERO setget _set_offset
 |:-|:-|:-|:-|
 |`offset`|`Vector2`|`Vector2.ZERO`|`_set_offset`|
 
+## 🗒️ Changelog
+
+See [CHANGELOG](/CHANGELOG.md).
+
 ## 👤 Author
 
 - hiulit
