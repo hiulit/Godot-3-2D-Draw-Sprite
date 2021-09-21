@@ -6,6 +6,7 @@ extends Node2D
 # https://github.com/hiulit/aseprite-to-godot-variables
 
 ## A 2D array with the indices of the @link_var {colors} array.
+##
 ## It can have `null` values (those will be completely transparent pixels).
 ## @example {_sprite}
 export(Array, Array, int) var sprite = _sprite setget _set_sprite
@@ -13,6 +14,7 @@ export(Array, Array, int) var sprite = _sprite setget _set_sprite
 ## @example {_colors}
 export(PoolColorArray) var colors = _colors setget _set_colors
 ## The amount of times each sprite is repeated on the X and Y axis.
+##
 ## Useful to create a pattern.
 export(Vector2) var repeat = Vector2.ONE setget _set_repeat
 ## A multiplier to increase the size of the sprite.

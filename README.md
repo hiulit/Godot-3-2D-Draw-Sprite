@@ -23,6 +23,7 @@ A script to create \"sprites\" using the `_draw()` function to easily create pat
 ### sprite
 
 A 2D array with the indices of the [colors](#colors) array.
+
 It can have `null` values (those will be completely transparent pixels).
 
 ```gdscript
@@ -73,6 +74,7 @@ var _colors = PoolColorArray([
 ### repeat
 
 The amount of times each sprite is repeated on the X and Y axis.
+
 Useful to create a pattern.
 
 ```gdscript
