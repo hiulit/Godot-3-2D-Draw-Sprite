@@ -66,6 +66,9 @@ func _set_sprite(new_value):
 
 func _set_repeat(new_value):
 	if new_value != repeat:
+		new_value.x = round(new_value.x)
+		new_value.y = round(new_value.y)
+
 		if new_value.x <= 0 or new_value.y <= 0:
 			if new_value.x <= 0:
 				repeat.x = 1
