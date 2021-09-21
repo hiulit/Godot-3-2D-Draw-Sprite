@@ -8,12 +8,32 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Node2D",
+"class": "DrawSprite",
+"language": "GDScript",
+"path": "res://draw_sprite.gd"
+} ]
+_global_script_class_icons={
+"DrawSprite": ""
+}
+
 [application]
 
 config/name="Godot 3 2D Draw Sprite"
-config/description="A  script to create \"sprites\" using the _draw() function to easily create patterns, change the color palette, or change the pixel size."
+config/description="A script to create \"sprites\" using the `_draw()` function to easily create patterns, change the color palette, or change the pixel size."
 run/main_scene="res://draw_sprite.tscn"
 config/icon="res://icon.png"
+config/version="1.0.0"
+config/godot_version="3.x"
+config/license="MIT"
+config/author="hiulit"
+config/banner="examples/Godot-3-2D-Draw-Sprite-Banner.png"
+config/patreon="https://www.patreon.com/hiulit"
+config/ko-fi="https://ko-fi.com/hiulit"
+config/buymeacoffee="https://www.buymeacoffee.com/hiulit"
+config/paypal="https://www.paypal.com/paypalme/hiulit"
+config/repository="https://github.com/hiulit/Godot-3-2D-Draw-Sprite"
 
 [display]
 
