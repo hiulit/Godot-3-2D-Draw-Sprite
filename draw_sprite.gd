@@ -5,7 +5,7 @@ extends Node2D
 # The variables "_sprite" and "_colors" are created using
 # https://github.com/hiulit/aseprite-to-godot-variables
 
-## A 2D array with the indices of the @link_var {colors} array.
+## A 2D array with the indices of the @link_name {colors} array.
 ##
 ## It can have `null` values (those will be completely transparent pixels).
 ## @example {_sprite}

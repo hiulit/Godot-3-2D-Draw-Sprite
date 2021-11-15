@@ -12,23 +12,25 @@ A script to create \"sprites\" using the `_draw()` function to easily create pat
 
 ### Variables
 
-- [sprite](#sprite)
-- [colors](#colors)
-- [repeat](#repeat)
-- [pixel_size](#pixel_size)
-- [offset](#offset)
+|Name|Type|Default|
+|:-|:-|:-|
+|[sprite](#sprite)|`Array`|`_sprite`|
+|[colors](#colors)|`PoolColorArray`|`_colors`|
+|[repeat](#repeat)|`Vector2`|`Vector2.ONE`|
+|[pixel_size](#pixel_size)|`int`|`1`|
+|[offset](#offset)|`Vector2`|`Vector2.ZERO`|
 
 ## Variables
 
 ### sprite
 
-A 2D array with the indices of the [colors](#colors) array.
-
-It can have `null` values (those will be completely transparent pixels).
-
 ```gdscript
 export(Array, Array, int) var sprite = _sprite setget _set_sprite
 ```
+
+A 2D array with the indices of the [colors](#colors) array.
+
+ It can have `null` values (those will be completely transparent pixels).
 
 |Name|Type|Default|Setter|
 |:-|:-|:-|:-|
@@ -52,11 +54,11 @@ var _sprite = [
 
 ### colors
 
-The colors of the sprite.
-
 ```gdscript
 export(PoolColorArray) var colors = _colors setget _set_colors
 ```
+
+The colors of the sprite.
 
 |Name|Type|Default|Setter|
 |:-|:-|:-|:-|
@@ -73,13 +75,13 @@ var _colors = PoolColorArray([
 
 ### repeat
 
-The amount of times each sprite is repeated on the X and Y axis.
-
-Useful to create a pattern.
-
 ```gdscript
 export(Vector2) var repeat = Vector2.ONE setget _set_repeat
 ```
+
+The amount of times each sprite is repeated on the X and Y axis.
+
+ Useful to create a pattern.
 
 |Name|Type|Default|Setter|
 |:-|:-|:-|:-|
@@ -87,11 +89,11 @@ export(Vector2) var repeat = Vector2.ONE setget _set_repeat
 
 ### pixel_size
 
-A multiplier to increase the size of the sprite.
-
 ```gdscript
 export(int) var pixel_size = 1 setget _set_pixel_size
 ```
+
+A multiplier to increase the size of the sprite.
 
 |Name|Type|Default|Setter|
 |:-|:-|:-|:-|
@@ -99,11 +101,11 @@ export(int) var pixel_size = 1 setget _set_pixel_size
 
 ### offset
 
-The amount of extra pixels of the sprite from its original position.
-
 ```gdscript
 export(Vector2) var offset = Vector2.ZERO setget _set_offset
 ```
+
+The amount of extra pixels of the sprite from its original position.
 
 |Name|Type|Default|Setter|
 |:-|:-|:-|:-|
@@ -147,8 +149,8 @@ Thank you very much!
 ## 📝 Licenses
 
 - Source code: [MIT License](/LICENSE).
-- Documentation ([GDScriptify](https://github.com/hiulit/gdscriptify)): [MIT License](/LICENSE_GDSCRIPTIFY.txt).
+- Documentation ([GDScriptify](https://github.com/hiulit/GDScriptify)): [MIT License](/LICENSE_GDSCRIPTIFY.txt).
 
 ---
 
-Powered by [GDScriptify](https://github.com/hiulit/gdscriptify).
+Powered by [GDScriptify](https://github.com/hiulit/GDScriptify).

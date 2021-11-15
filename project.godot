@@ -33,7 +33,7 @@ config/author="hiulit"
 config/banner="examples/Godot-3-2D-Draw-Sprite-Banner.png"
 config/patreon="https://www.patreon.com/hiulit"
 config/ko-fi="https://ko-fi.com/hiulit"
-config/buymeacoffee="https://www.buymeacoffee.com/hiulit"
+config/buy_me_a_coffee="https://www.buymeacoffee.com/hiulit"
 config/paypal="https://www.paypal.com/paypalme/hiulit"
 config/repository="https://github.com/hiulit/Godot-3-2D-Draw-Sprite"
 
